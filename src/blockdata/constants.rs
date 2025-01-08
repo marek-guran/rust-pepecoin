@@ -41,9 +41,9 @@ pub const WITNESS_SCALE_FACTOR: usize = 4;
 /// The maximum allowed number of signature check operations in a block
 pub const MAX_BLOCK_SIGOPS_COST: i64 = 80_000;
 /// Mainnet (Ᵽepecoin) pubkey address prefix.
-pub const PUBKEY_ADDRESS_PREFIX_MAIN: u8 = 0x37; // Example: 'P' address prefix
+pub const PUBKEY_ADDRESS_PREFIX_MAIN: u8 = 0x38; // Example: 'P' address prefix
 /// Mainnet (Ᵽepecoin) script address prefix.
-pub const SCRIPT_ADDRESS_PREFIX_MAIN: u8 = 0x05; // Example: '3' address prefix
+pub const SCRIPT_ADDRESS_PREFIX_MAIN: u8 = 0x16; // Example: '3' address prefix
 /// Testnet (Ᵽepecoin) pubkey address prefix.
 pub const PUBKEY_ADDRESS_PREFIX_TEST: u8 = 0x6f; // Example: 'm' or 'n' address prefix
 /// Testnet (Ᵽepecoin) script address prefix.
